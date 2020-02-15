@@ -6,21 +6,10 @@
     <script src="script.js"></script>
     </head>
     <body>
-    <div class="frame">
-  <div class="center">
-		<div class="bar"></div>
-		<div class="title">Drop file to upload</div>
-		<div class="dropzone">
-			<div class="content">
-				<img src="https://100dayscss.com/codepen/upload.svg" class="upload">
-				<span class="filename"></span>
-				<input type="file" class="input">
-			</div>
-		</div>
-		<img src="https://100dayscss.com/codepen/syncing.svg" class="syncing">
-		<img src="https://100dayscss.com/codepen/checkmark.svg" class="done">
-		<div class="upload-btn">Upload file</div>
-  </div>
-</div>
+    <form action="upload.php" method="POST">
+  <input type="file" multiple>
+  <p>Drag your files here or click in this area.</p>
+  <button type="submit">Upload</button>
+</form>
     </body>
 </html>
