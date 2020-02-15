@@ -70,8 +70,7 @@ def async_detect_document(gcs_source_uri, gcs_destination_uri):
     # The response contains more information:
     # annotation/pages/blocks/paragraphs/words/symbols
     # including confidence scores and bounding boxes
-    print(u'Full text:\n{}'.format(
-        annotation.text))
+    return annotation.text
 
 def pdf2text(fname):
     '''
