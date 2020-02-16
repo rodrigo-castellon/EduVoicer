@@ -3,7 +3,8 @@ import pdf_utils
 
 def pdftovoice(gcs_source_uri, gcs_destination_uri):
     text = pdf_utils.async_detect_document(gcs_source_uri,gcs_destination_uri)
-    run_quickstart(text,1.0)
+    run_quickstart(text,1.0, 0)
+    return text
 
 
 
