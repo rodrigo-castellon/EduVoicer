@@ -1,6 +1,6 @@
 # EduVoicer
 
-Won Voice Assistance Grand Prize and VoiceFlow's Most User-Friendly Voice Assistance Hack at TreeHacks.
+Top 8 Finalist, won Voice Assistance Grand Prize, and won Most User-Friendly Voice Assistance Hack from VoiceFlow at TreeHacks.
 
 ### Team Members
 
